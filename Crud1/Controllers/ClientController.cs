@@ -87,6 +87,8 @@ namespace Crud1.Controllers
           _context.Clientss.Remove(dbclient);
             await _context.SaveChangesAsync();
             return Ok(await _context.Clientss.ToListAsync());
+
+           
         }
 
     }
