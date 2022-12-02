@@ -88,7 +88,8 @@ namespace Crud1.Controllers
             await _context.SaveChangesAsync();
             return Ok(await _context.Clientss.ToListAsync());
 
-           
+           //tyrr676r776r
+           //u567u6u6r
         }
 
     }
