@@ -11,5 +11,6 @@ namespace Crud1.Data
 
         public DbSet<Client> Clientss { get; set; }
         public DbSet<Employee> Employee { get; set; }
+
     }
 }
