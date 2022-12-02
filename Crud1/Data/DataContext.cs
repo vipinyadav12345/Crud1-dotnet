@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Crud1.Model;
+using Microsoft.EntityFrameworkCore;
 
 namespace Crud1.Data
 {
@@ -9,5 +10,6 @@ namespace Crud1.Data
         }
 
         public DbSet<Client> Clientss { get; set; }
+        public DbSet<Employee> Employee { get; set; }
     }
 }
