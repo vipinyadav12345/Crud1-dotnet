@@ -8,5 +8,8 @@
         public string LastName { get; set; } = string.Empty;
         public string Place { get; set; } = string.Empty;
       //  public string Adress { get; set; } = string.Empty;
+      //hjyjgytrtyy
+      //gtyykugk,yg
+
     }
 }
